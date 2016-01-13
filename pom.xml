@@ -5,6 +5,10 @@
   <artifactId>test</artifactId>
   <version>0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+  
+  <properties>
+    <cdm-version>7.4.0</cdm-version>
+  </properties>
 
 </project>
 
