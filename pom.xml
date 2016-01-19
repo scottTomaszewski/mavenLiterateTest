@@ -27,7 +27,7 @@
         <extensions>true</extensions>
         <configuration>
           <serverId>nexus</serverId>
-          <nexusUrl>http://192.168.99.100:32770/nexus</nexusUrl>
+          <nexusUrl>http://192.168.99.100:32770</nexusUrl>
         </configuration>
       </plugin>
     </plugins>
