@@ -3,35 +3,19 @@
 
   <groupId>literate</groupId>
   <artifactId>test</artifactId>
-  <version>0.0-SNAPSHOT</version>
+  <version>0.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   
   <properties>
     <cdm-version>7.4.0</cdm-version>
   </properties>
 
-<distributionManagement>
+  <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Nexus Staging Repo</name>
       <url>http://192.168.99.100:32770/content/repositories/staging/</url>
     </repository>
   </distributionManagement>
-  
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.6</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>nexus</serverId>
-          <nexusUrl>http://192.168.99.100:32770/nexus</nexusUrl>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+
 </project>
-
-
